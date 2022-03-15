@@ -1,0 +1,514 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background: rgb(233, 233, 233);
+  margin-bottom: +55px;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  width: 80px;
+  padding: 5px;
+  margin: 0;
+  margin-left: 15px;
+}
+
+#trybewarts-header-title {
+  margin-top: -6px;
+  font-size: 50px;
+  color: white;
+  font-family: rosella-hatched, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.trybewarts-login {
+  display: flex;
+  margin: 15px;
+}
+
+.trybewarts-login input {
+  padding: 12px;
+  border-radius: 10px;
+  margin-left: 7px;
+  border: none;
+}
+
+.trybewarts-login button {
+  padding: 0 20px;
+  border-radius: 10px;
+  font-size: 17px;
+  border: none;
+  margin-left: 7px;
+  background-color: rgb(99, 0, 170);
+  color: white;
+  font-family: hoss-round, sans-serif;
+  font-style: normal;
+  font-weight: 350;
+}
+
+.trybewarts-login button:hover {
+  background-color: rgb(81, 0, 139);
+}
+
+.container {
+  display: flex;
+  margin: 20px;
+  margin-top: 40px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#form-title {
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+#form-title h2 {
+  font-family: chaloops, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 35px;
+  text-align: center;
+}
+
+#finalForm {
+  font-family: chaloops, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.form-content {
+  margin: 15px;
+  font-family: hoss-round, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+#main-final-info {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(197, 197, 197);
+  border-radius: 10px;
+}
+
+#refresh-bottom {
+  padding: 2px 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-size: 25px;
+  border: none;
+  color: white;
+  background-color: rgb(108, 46, 149);
+}
+
+#refresh-bottom:hover {
+  background-color: rgb(86, 0, 143);
+}
+
+#refresh-bottom:active {
+  background-color: rgb(58, 0, 97);
+}
+
+#lead {
+  display: flex;
+  flex-direction: column;
+}
+
+#full-name input , #contact input {
+  padding: 10px;
+  width: 300px;
+  height: 25px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  font-family: sunshine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#contact label {
+  font-family: sunshine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#house {
+  padding: 10px;
+  width: 280px;
+  height: 45px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  font-family: sunshine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#skills-info {
+  margin: 10px;
+  display: flex;
+}
+
+#family {
+  font-family: sunshine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#family label {
+  font-size: 18px;
+}
+
+#family input {
+  margin: 10px;
+}
+
+#wating-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: sunshine, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+#wating-content label {
+  font-size: 18px;
+  text-align: center;
+}
+
+#wating-content input {
+  margin: 5px;
+  margin-top: 15px;
+}
+
+#grade {
+  display: flex;
+  margin: 10px;
+  font-family: xenera, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#grade input {
+  margin: 3px;
+}
+
+#grade label {
+  margin-left: 0;
+}
+
+.textarea {
+  margin-bottom: 5px;
+}
+
+#textarea {
+  width: 450px;
+  border-radius: 5px;
+  border: 2px solid rgb(50, 167, 145);
+  resize: none;
+}
+
+#counter {
+  color: rgb(121, 121, 121);
+}
+
+/* resize;
+Font: https://pt.stackoverflow.com */
+
+#comments-and-agreement {
+  display: flex;
+  flex-direction: column;
+  font-family: xenera, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#submit-btn {
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  font-family: cholla-wide, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* cursor;
+Font: https://www.horadecodar.com.br/2020/04/15/como-mudar-o-cursor-do-mouse-com-css/ */
+
+hr {
+  margin-top: 10px;
+  width: 100%;
+}
+
+#img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#trybewarts-forms-logo {
+  width: 550px;
+  height: 500px;
+}
+
+#img-container2 {
+  margin-top: 10px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#trybewarts-forms-logo2 {
+  width: 300px;
+  height: 250px;
+}
+
+footer {
+  display: flex;
+  background: rgb(138, 138, 138);
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+footer p {
+  color: white;
+  padding: 10px;
+}
+
+/* Responsiveness Part */
+
+@media only screen and ( max-width : 1280px ) {
+
+  #trybewarts-forms-logo {
+    width: 250px;
+  }
+}
+
+@media only screen and ( max-width : 1065px ) {
+
+  #img-container {
+    display: none;
+  }
+
+  #img-container2 {
+    display: flex;
+  }
+
+  #trybewarts-header-title {
+    display: none;
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+
+  .container {
+    margin: 20px;
+    margin-top: 22px;
+  }
+}
+
+@media only screen and ( max-width : 768px ) {
+
+  #full-name , #contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #house {
+    width: 267px;
+  }
+
+  #skills-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #grade {
+    flex-direction: column;
+  }
+
+  #wating-content {
+    margin-top: 20px;
+  }
+
+  #contact label {
+    background-color: rgb(219, 219, 219);
+    padding-left: 3px;
+    border-radius: 15px;
+  }
+}
+
+@media only screen and ( max-width : 600px ) {
+
+  .trybewarts-header-logo {
+    width: 45px;
+  }
+
+  .trybewarts-login {
+    display: flex;
+    margin: 15px;
+  }
+
+  .trybewarts-login input {
+    width: 90px;
+  }
+
+  .trybewarts-login button {
+    padding: 0 20px;
+    border-radius: 10px;
+    font-size: 17px;
+  }
+
+  #textarea {
+    width: 300px;
+  }
+}
+
+@media only screen and ( max-width : 437px ) {
+
+  .trybewarts-login input {
+    width: 47px;
+  }
+
+  .trybewarts-login button {
+    padding: 0 8px;
+    border-radius: 10px;
+    font-size: 17px;
+  }
+
+  #textarea {
+    width: 250px;
+  }
+
+
+  #full-name input , #contact input {
+    padding: 10px;
+    width: 250px;
+    height: 25px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    font-family: sunshine, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #contact label {
+    font-family: sunshine, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #house {
+    padding: 10px;
+    width: 220px;
+    height: 45px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    font-family: sunshine, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #the-agreement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  #the-agreement label {
+    text-align: center;
+  }
+}
+
+@media only screen and ( max-width : 285px ) {
+
+  .trybewarts-login input {
+    width: 40px;
+  }
+
+  .trybewarts-login button {
+    padding: 0 5px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+
+  #textarea {
+    width: 230px;
+  }
+
+  #full-name input , #contact input {
+    padding: 10px;
+    width: 210px;
+    height: 25px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    font-family: sunshine, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #contact label {
+    background-color: rgb(219, 219, 219);
+    padding-left: 3px;
+    border-radius: 15px;
+  }
+
+  #house {
+    padding: 10px;
+    width: 185px;
+    height: 45px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    font-family: sunshine, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #trybewarts-forms-logo2 {
+    width: 280px;
+    height: 180px;
+  }
+
+  .header {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .trybewarts-header-logo {
+    width: 40px;
+    margin-left: 2px;
+  }
+
+  .trybewarts-login {
+    display: flex;
+    margin: 10px;
+  }
+}
