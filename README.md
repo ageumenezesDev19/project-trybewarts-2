@@ -4,6 +4,9 @@
 
 # Projeto - Trybewarts 2
 
+Email: tryber@teste.com
+Password: 123456
+
 ## Projeto em dupla.
 
 ### Neste projeto, eu e meu colega Clever colocamos em prática nossas habilidades de criação de formulários, responsividade e posicionamento de objetos na tela.
